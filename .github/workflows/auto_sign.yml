@@ -33,5 +33,7 @@ jobs:
         env:
           MY_EMAIL: ${{ secrets.MY_EMAIL }}       # 从 GitHub Secrets 读取邮箱
           MY_PASSWORD: ${{ secrets.MY_PASSWORD }} # 从 GitHub Secrets 读取密码
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          RECEIVE_EMAIL: ${{ secrets.RECEIVE_EMAIL }}
         run: |
           python main.py
