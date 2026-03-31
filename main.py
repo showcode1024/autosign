@@ -11,7 +11,7 @@ from email.header import Header
 MY_EMAIL = os.environ.get('MY_EMAIL')
 MY_PASSWORD = os.environ.get('MY_PASSWORD')
 EMAIL_PASS = os.environ.get("EMAIL_PASS")  # QQ邮箱授权码
-RECEIVE_EMAIL = os.environ.get("SEND_EMAIL")  # 接收结果的邮箱
+RECEIVE_EMAIL = os.environ.get("RECEIVE_EMAIL")  # 接收结果的邮箱
 
 
 def send_mail(subject, content):
